@@ -1,0 +1,16 @@
+nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.primary{
+    font-size: small;
+}
+.homeclass h1,button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#servicesboxid1:hover,#servicesboxid2:hover,#servicesboxid3:hover{
+    margin-bottom: 3rem;
+}

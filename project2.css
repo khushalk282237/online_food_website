@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+.imglogoclass1{
+    width: 70px;
+    height: 70px;
+    border: 1px black solid;
+    border-radius:5px;
+}
+nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.anavclass{
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;  
+    padding: 15px;
+    padding-left: 20px;
+    text-shadow: 2px 2px #fff,1px 1px 1px #000;
+}
+nav:hover{
+    cursor: pointer;
+}
+.anavclass:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000,1px 1px 1px #fff;
+}
+nav::before{
+    content: "";
+    background: #76c6f5;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    opacity: 0.6;
+}
+.primary{
+    font-family: 'Tilt Warp', cursive;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+#home h1{
+    padding-bottom: 1rem;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../project2/img_project_2/pexels-ella-olsson-1640770.jpg') repeat-x center center/cover;
+    height: 60%;
+    width: 100%;
+    z-index: -100;
+    opacity: 0.5;
+}
+#home p{
+    height: 7rem;
+    width: 30rem;
+    font-size: larger;
+    text-align: center;
+}
+#sectionbtn{
+    border-radius: 7px;
+    padding: 5px;
+    margin: 3rem;
+    font-size: 1rem;
+    background: #8acaf0;
+}
+#sectionbtn:hover{
+    border-radius: 7px;
+    background: #feffff;
+    cursor: pointer;
+    box-shadow: 3px 3px 4px black;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.servicesimg{
+    height: 6rem;
+    width: 10rem;
+    border: 1px black solid;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px black;
+}
+.servicesbox{
+    height: 17rem;
+    width:20rem;
+    margin: 2.5rem;
+    margin-top: 3rem;
+    text-align: center;
+    border: 2px #8acaf0 solid;
+    border-radius: 3rem;
+    background: #00000036;
+    box-shadow: 1rem 1rem 2rem black;
+}
+#servicesboxid1:hover,#servicesboxid2:hover,#servicesboxid3:hover{
+    height: 19rem;
+    width: 22rem;
+    background: #8acaf0;
+    cursor: pointer;
+    margin: 0.5rem;
+    margin-left: 2.5rem;
+}
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.primary1::before{
+    content: "";
+    position: absolute;
+    background: url('../project2/img_project_2/pexels-polina-tankilevitch-3872373.jpg') no-repeat center center/cover;
+    height: 39%;
+    width: 53%;
+    z-index: -100;
+    opacity: 0.3;
+}
+.clientsimg{
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+    border: 1px black solid;
+    box-shadow: 2px 2px 6px 2px black;
+    border-radius: 10px;
+}
+.clientsimg:hover{
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+    margin:0rem;
+    margin-left: 1rem;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:2px black solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 6px black;
+}
+.contact input,textarea{
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    text-align: center;
+    background: none;
+}
+.contact input,textarea:hover{
+    cursor: pointer;
+}
+.contact div{
+    text-align: left;
+    margin: 1rem;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    background: url('../project2/img_project_2/pexels-pixabay-263564.jpg') no-repeat center center/cover;
+    z-index: -100;
+    height: 45%;
+    width: 100%;
+    opacity: 0.5;
+}
+footer{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #00000000;
+    columns: #181717;
+    font-weight: bolder;
+    text-shadow: 2px 2px white,1px 1px 2px black;
+    
+}
